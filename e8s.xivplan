@@ -1,5 +1,5 @@
 {
-  "nextId": 1542,
+  "nextId": 1543,
   "arena": {
     "isSpoilerFree": true,
     "shape": "circle",
@@ -645,7 +645,7 @@
         {
           "opacity": 100,
           "type": "party",
-          "image": "https://i.imgur.com/8JYgXHR.png",
+          "image": "/actor/melee.png",
           "name": "M2",
           "status": [],
           "width": 40,
@@ -761,7 +761,7 @@
           "color": "#ffc800",
           "opacity": 100,
           "rotation": 0,
-          "text": "DPS Marker Prio for AoE\n\nMelia always 3\nRadella always 4\nHin/Archer flex\n\nWe'll use this prio for all mechs that require it\n(Light Rampant, Soft Enrage)",
+          "text": "DPS Marker Prio for AoE\n\nMelia always 3\nRadella always 4\nM2/Archer flex\n\nWe'll use this prio for all mechs that require it\n(Light Rampant, Soft Enrage)",
           "x": 69,
           "y": -219,
           "id": 1466
@@ -845,6 +845,19 @@
           "x": 1,
           "y": -1,
           "id": 1473
+        },
+        {
+          "type": "party",
+          "image": "",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -311,
+          "y": 265,
+          "id": 1542
         }
       ]
     },
@@ -973,7 +986,7 @@
         {
           "opacity": 100,
           "type": "party",
-          "image": "https://i.imgur.com/8JYgXHR.png",
+          "image": "/actor/melee.png",
           "name": "M2",
           "status": [],
           "width": 40,
@@ -1191,9 +1204,9 @@
           "color": "#ffc800",
           "opacity": 100,
           "rotation": 0,
-          "text": "The first outside telegraphs will be the safespots\nThey are always E+W or N+S\n   Ranges get KBd S or E\n   Melees get KBd N or W\n   depending on safespots",
-          "x": 56,
-          "y": -245,
+          "text": "The first outside telegraphs will be the safespots\nThey are always E+W or N+S\n   Ranges get KBd S or E, unless Baiters\n   Melees get KBd N or W\n   depending on safespots",
+          "x": 59,
+          "y": -206,
           "id": 925
         },
         {
@@ -1356,7 +1369,7 @@
         {
           "opacity": 100,
           "type": "party",
-          "image": "https://i.imgur.com/8JYgXHR.png",
+          "image": "/actor/melee.png",
           "name": "M2",
           "status": [],
           "width": 40,
@@ -1720,7 +1733,7 @@
         {
           "opacity": 100,
           "type": "party",
-          "image": "https://i.imgur.com/8JYgXHR.png",
+          "image": "/actor/melee.png",
           "name": "M2",
           "status": [],
           "width": 40,
@@ -4524,7 +4537,7 @@
         {
           "opacity": 100,
           "type": "party",
-          "image": "https://i.imgur.com/8JYgXHR.png",
+          "image": "/actor/melee.png",
           "name": "M2",
           "status": [],
           "width": 40,

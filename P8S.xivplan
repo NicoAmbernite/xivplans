@@ -2556,7 +2556,7 @@
           "color": "#ffffff",
           "opacity": 100,
           "rotation": 0,
-          "text": "Fourfould Corners\nG1 East\nG2 West\nArrows show partners",
+          "text": "Fourfould Corners\nG1 West\nG2 East\nArrows show partners",
           "x": -151,
           "y": 199,
           "id": 362

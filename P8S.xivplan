@@ -1,5 +1,5 @@
 {
-  "nextId": 414,
+  "nextId": 415,
   "arena": {
     "shape": "rectangle",
     "width": 700,
@@ -234,43 +234,43 @@
           "id": 64
         },
         {
+          "stroke": "#000000",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 30,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Starting positions\nMelee+Range pairs for uptime purposes in case of spread",
-          "stroke": "#000000",
           "x": -8,
           "y": 304,
           "id": 405
         },
         {
+          "stroke": "#000000",
+          "style": "outline",
           "type": "text",
           "align": "left",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Slides Content\n\n2/3   \n4      \n5-8   \n9-10  \n11     \n12    ",
-          "stroke": "#40352c",
           "x": -321,
           "y": 11,
           "id": 406
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "left",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "\n\nDog 1\nSnake 1\nManifold\nFourfold\nSnake 2\nDog 2",
-          "stroke": "#40352c",
           "x": -285,
           "y": 11,
           "id": 407
@@ -1964,8 +1964,8 @@
           "width": 40,
           "height": 40,
           "rotation": 0,
-          "x": -233,
-          "y": -140,
+          "x": -273,
+          "y": -145,
           "id": 216
         },
         {
@@ -1990,8 +1990,8 @@
           "width": 40,
           "height": 40,
           "rotation": 0,
-          "x": 234,
-          "y": 141,
+          "x": 141,
+          "y": 253,
           "id": 218
         },
         {
@@ -2016,8 +2016,8 @@
           "width": 40,
           "height": 40,
           "rotation": 0,
-          "x": 168,
-          "y": -143,
+          "x": 165,
+          "y": -142,
           "id": 220
         },
         {
@@ -2029,8 +2029,8 @@
           "width": 40,
           "height": 40,
           "rotation": 0,
-          "x": -173,
-          "y": 141,
+          "x": -144,
+          "y": 165,
           "id": 221
         },
         {
@@ -2042,8 +2042,8 @@
           "width": 40,
           "height": 40,
           "rotation": 0,
-          "x": 138,
-          "y": 168,
+          "x": 178,
+          "y": 139,
           "id": 222
         },
         {
@@ -2055,8 +2055,8 @@
           "width": 40,
           "height": 40,
           "rotation": 0,
-          "x": -144,
-          "y": 240,
+          "x": -276,
+          "y": 141,
           "id": 223
         },
         {
@@ -2205,9 +2205,9 @@
           "color": "#ffffff",
           "opacity": 100,
           "rotation": 0,
-          "text": "Either in our out\nCombined with either Pairs or Proteans\nShowing only out+proteans because that's the only interesting one\nBasically Melees be close at an angle, ranges far at an angle",
+          "text": "Either \"In\" our \"Out\"\nCombined with either \"Pairs\" or \"Proteans\"\nShowing only \"Out+Proteans\" because that's the only interesting one\nBasically Melees be close at an angle, ranges far at an angle",
           "x": 28,
-          "y": 16,
+          "y": 6,
           "id": 235
         },
         {
@@ -2226,8 +2226,8 @@
           "color": "#fc972b",
           "opacity": 35,
           "width": 100,
-          "length": 490,
-          "rotation": 60,
+          "length": 474,
+          "rotation": 53,
           "x": 0,
           "y": 0,
           "id": 243
@@ -2237,8 +2237,8 @@
           "color": "#fc972b",
           "opacity": 35,
           "width": 100,
-          "length": 402,
-          "rotation": 39,
+          "length": 422,
+          "rotation": 28,
           "x": 0,
           "y": 0,
           "id": 244
@@ -2248,7 +2248,7 @@
           "color": "#fc972b",
           "opacity": 35,
           "width": 100,
-          "length": 448,
+          "length": 434,
           "rotation": 150,
           "x": 0,
           "y": 0,
@@ -2259,7 +2259,7 @@
           "color": "#fc972b",
           "opacity": 35,
           "width": 100,
-          "length": 454,
+          "length": 490,
           "rotation": 130,
           "x": 0,
           "y": 0,
@@ -2270,7 +2270,7 @@
           "color": "#fc972b",
           "opacity": 35,
           "width": 100,
-          "length": 389,
+          "length": 486,
           "rotation": 219,
           "x": 0,
           "y": 0,
@@ -2281,8 +2281,8 @@
           "color": "#fc972b",
           "opacity": 35,
           "width": 100,
-          "length": 400,
-          "rotation": 240,
+          "length": 420,
+          "rotation": 243,
           "x": 0,
           "y": 0,
           "id": 248
@@ -2292,8 +2292,8 @@
           "color": "#fc972b",
           "opacity": 35,
           "width": 100,
-          "length": 382,
-          "rotation": -30,
+          "length": 486,
+          "rotation": -38,
           "x": 0,
           "y": 0,
           "id": 249
@@ -2303,11 +2303,25 @@
           "color": "#fc972b",
           "opacity": 35,
           "width": 100,
-          "length": 374,
-          "rotation": -52,
+          "length": 421,
+          "rotation": -62,
           "x": 0,
           "y": 0,
           "id": 250
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_small.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 201,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": 1,
+          "y": -16,
+          "id": 414
         }
       ]
     },
@@ -3453,35 +3467,35 @@
           "id": 329
         },
         {
+          "stroke": "#000000",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Adjusted melee/ranged LPs",
-          "stroke": "#000000",
           "x": 189,
           "y": 385,
           "id": 330
         },
         {
+          "count": 1,
           "type": "stack",
           "color": "#fc972b",
           "opacity": 35,
           "radius": 75,
-          "count": 1,
           "x": 162,
           "y": 274,
           "id": 331
         },
         {
+          "count": 1,
           "type": "stack",
           "color": "#fc972b",
           "opacity": 35,
           "radius": 75,
-          "count": 1,
           "x": 165,
           "y": 75,
           "id": 332
@@ -3511,7 +3525,7 @@
           "rotation": 0,
           "text": "Tetraflare",
           "x": -226,
-          "y": 423,
+          "y": 420,
           "id": 334
         },
         {
@@ -3619,55 +3633,55 @@
           "id": 342
         },
         {
+          "stroke": "#000000",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Fourfold Pairs",
-          "stroke": "#000000",
           "x": -228,
           "y": 385,
           "id": 343
         },
         {
+          "count": 1,
           "type": "stack",
           "color": "#fc972b",
           "opacity": 35,
           "radius": 43,
-          "count": 1,
           "x": -175,
           "y": 330,
           "id": 410
         },
         {
+          "count": 1,
           "type": "stack",
           "color": "#fc972b",
           "opacity": 35,
           "radius": 43,
-          "count": 1,
           "x": -179,
           "y": 223,
           "id": 411
         },
         {
+          "count": 1,
           "type": "stack",
           "color": "#fc972b",
           "opacity": 35,
           "radius": 43,
-          "count": 1,
           "x": -179,
           "y": 112,
           "id": 412
         },
         {
+          "count": 1,
           "type": "stack",
           "color": "#fc972b",
           "opacity": 35,
           "radius": 43,
-          "count": 1,
           "x": -176,
           "y": 0,
           "id": 413

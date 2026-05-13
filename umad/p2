@@ -1,0 +1,66 @@
+{
+  "nextId": 11,
+  "arena": {
+    "shape": "circle",
+    "width": 800,
+    "height": 800,
+    "padding": 120,
+    "grid": {
+      "type": "rectangle",
+      "rows": 1,
+      "columns": 1
+    },
+    "backgroundImage": "https://i.postimg.cc/cWhyVZnT/o8sp2fade.png",
+    "backgroundOpacity": 100
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "triangle",
+          "color": "#20052e",
+          "opacity": 55,
+          "width": 228,
+          "height": 212,
+          "rotation": 0,
+          "x": -10,
+          "y": 8,
+          "id": 7
+        },
+        {
+          "type": "triangle",
+          "color": "#20052e",
+          "opacity": 55,
+          "width": 136,
+          "height": 126,
+          "rotation": 0,
+          "x": 177,
+          "y": 102,
+          "id": 8
+        },
+        {
+          "type": "triangle",
+          "color": "#20052e",
+          "opacity": 55,
+          "width": 136,
+          "height": 126,
+          "rotation": 0,
+          "x": -6,
+          "y": -265,
+          "id": 9
+        },
+        {
+          "type": "triangle",
+          "color": "#20052e",
+          "opacity": 55,
+          "width": 136,
+          "height": 126,
+          "rotation": 0,
+          "x": -221,
+          "y": 166,
+          "id": 10
+        }
+      ]
+    }
+  ]
+}

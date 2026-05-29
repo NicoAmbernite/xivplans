@@ -10,7 +10,7 @@
       "rows": 1,
       "columns": 1
     },
-    "backgroundImage": "https://github.com/NicoAmbernite/xivstuff/blob/main/arenas/o8s-custom2.png",
+    "backgroundImage": "https://raw.githubusercontent.com/NicoAmbernite/xivstuff/refs/heads/main/arenas/o8s-custom2.png",
     "backgroundOpacity": 100
   },
   "steps": [

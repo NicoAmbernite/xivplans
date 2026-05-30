@@ -18,7 +18,7 @@
       "objects": [
         {
           "type": "party",
-          "image": "/actor/melee.png",
+          "image": "/actor/melee2.png",
           "name": "Melee DPS",
           "status": [],
           "width": 48,
@@ -31,7 +31,7 @@
         },
         {
           "type": "party",
-          "image": "/actor/tank.png",
+          "image": "/actor/tank1.png",
           "name": "Tank",
           "status": [],
           "width": 48,
@@ -44,7 +44,7 @@
         },
         {
           "type": "party",
-          "image": "/actor/healer.png",
+          "image": "/actor/healer1.png",
           "name": "Healer",
           "status": [],
           "width": 48,
@@ -83,7 +83,7 @@
         },
         {
           "type": "party",
-          "image": "/actor/healer.png",
+          "image": "/actor/healer2.png",
           "name": "Healer",
           "status": [],
           "width": 48,
@@ -96,7 +96,7 @@
         },
         {
           "type": "party",
-          "image": "/actor/tank.png",
+          "image": "/actor/tank2.png",
           "name": "Tank",
           "status": [],
           "width": 48,
@@ -109,7 +109,7 @@
         },
         {
           "type": "party",
-          "image": "/actor/melee.png",
+          "image": "/actor/melee1.png",
           "name": "Melee DPS",
           "status": [],
           "width": 48,

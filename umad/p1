@@ -1,5 +1,5 @@
 {
-  "nextId": 186,
+  "nextId": 673,
   "arena": {
     "shape": "circle",
     "width": 800,
@@ -255,15 +255,15 @@
           "id": 165
         },
         {
+          "stroke": "#000000",
+          "style": "outline",
           "type": "text",
           "align": "left",
           "fontSize": 50,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Map split:\nSupports left\nDPS right",
-          "stroke": "#000000",
           "x": 28,
           "y": 334,
           "id": 166
@@ -511,15 +511,15 @@
           "id": 184
         },
         {
+          "stroke": "#000000",
+          "style": "outline",
           "type": "text",
           "align": "left",
           "fontSize": 40,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Spread in Quadrant\n1s/2s Left/Right looking in respectively",
-          "stroke": "#000000",
           "x": 71,
           "y": 362,
           "id": 185
@@ -779,6 +779,358 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
+          "x": 149,
+          "y": 7,
+          "id": 186
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/tank1.png",
+          "name": "Tank",
+          "status": [],
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "x": -44,
+          "y": 10,
+          "id": 187
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/healer1.png",
+          "name": "Healer",
+          "status": [],
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "x": -250,
+          "y": 10,
+          "id": 188
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/physical_ranged.png",
+          "name": "Physical Ranged DPS",
+          "status": [],
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "x": 268,
+          "y": 2,
+          "id": 189
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/magic_ranged.png",
+          "name": "Magic Ranged DPS",
+          "status": [],
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "x": 377,
+          "y": 1,
+          "id": 190
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/healer2.png",
+          "name": "Healer",
+          "status": [],
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "x": -355,
+          "y": 11,
+          "id": 191
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/tank2.png",
+          "name": "Tank",
+          "status": [],
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "x": -140,
+          "y": 13,
+          "id": 192
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/melee1.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
+          "x": 53,
+          "y": 9,
+          "id": 193
+        },
+        {
+          "type": "cone",
+          "color": "#f269ff",
+          "opacity": 60,
+          "radius": 398,
+          "coneAngle": 90,
+          "rotation": 45,
+          "x": 0,
+          "y": 0,
+          "id": 194
+        },
+        {
+          "type": "cone",
+          "color": "#f269ff",
+          "opacity": 60,
+          "radius": 398,
+          "coneAngle": 90,
+          "rotation": 225,
+          "x": 0,
+          "y": 0,
+          "id": 195
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark A",
+          "image": "/marker/waymark_a.png",
+          "shape": "circle",
+          "color": "#f13b66",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 0,
+          "y": 250,
+          "id": 196
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark B",
+          "image": "/marker/waymark_b.png",
+          "shape": "circle",
+          "color": "#e1dc5d",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 250,
+          "y": 0,
+          "id": 197
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark C",
+          "image": "/marker/waymark_c.png",
+          "shape": "circle",
+          "color": "#65b3ea",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 1,
+          "y": -217,
+          "id": 198
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark D",
+          "image": "/marker/waymark_d.png",
+          "shape": "circle",
+          "color": "#e291e6",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -226,
+          "y": 2,
+          "id": 199
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 1",
+          "image": "/marker/waymark_1.png",
+          "shape": "square",
+          "color": "#f13b66",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -170,
+          "y": 170,
+          "id": 200
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 2",
+          "image": "/marker/waymark_2.png",
+          "shape": "square",
+          "color": "#e1dc5d",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 170,
+          "y": 170,
+          "id": 201
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 3",
+          "image": "/marker/waymark_3.png",
+          "shape": "square",
+          "color": "#65b3ea",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 170,
+          "y": -170,
+          "id": 202
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 4",
+          "image": "/marker/waymark_4.png",
+          "shape": "square",
+          "color": "#e291e6",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -170,
+          "y": -170,
+          "id": 203
+        },
+        {
+          "type": "polygon",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 50,
+          "sides": 6,
+          "orient": "point",
+          "rotation": 0,
+          "x": 0,
+          "y": 466,
+          "id": 204
+        },
+        {
+          "type": "line",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 100,
+          "length": 679,
+          "rotation": -163,
+          "x": 0,
+          "y": 466,
+          "id": 205
+        },
+        {
+          "type": "line",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 100,
+          "length": 702,
+          "rotation": -142,
+          "x": 0,
+          "y": 466,
+          "id": 206
+        },
+        {
+          "type": "line",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 100,
+          "length": 695,
+          "rotation": 173,
+          "x": 0,
+          "y": 466,
+          "id": 208
+        },
+        {
+          "type": "line",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 100,
+          "length": 701,
+          "rotation": 162,
+          "x": 0,
+          "y": 466,
+          "id": 209
+        },
+        {
+          "type": "text",
+          "align": "left",
+          "fontSize": 35,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "2 lasers per role\nLasers drop towers\nNon-lasers soak towers \n(Conga prio within your Role\n-> DPS always take DPS side towers)",
+          "stroke": "#000000",
+          "x": 36,
+          "y": 331,
+          "id": 210
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 75,
+          "radius": 68,
+          "count": 1,
+          "x": -354,
+          "y": 9,
+          "id": 211
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 75,
+          "radius": 68,
+          "count": 1,
+          "x": -139,
+          "y": 10,
+          "id": 212
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 75,
+          "radius": 68,
+          "count": 1,
+          "x": 55,
+          "y": 9,
+          "id": 213
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 75,
+          "radius": 68,
+          "count": 1,
+          "x": 153,
+          "y": 4,
+          "id": 214
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/melee2.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 48,
+          "height": 48,
+          "rotation": 0,
           "x": 339,
           "y": -9,
           "id": 32
@@ -792,8 +1144,8 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": -13,
-          "y": 327,
+          "x": -14,
+          "y": 337,
           "id": 33
         },
         {
@@ -805,8 +1157,8 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": -368,
-          "y": 8,
+          "x": -365,
+          "y": 14,
           "id": 34
         },
         {
@@ -819,7 +1171,7 @@
           "height": 48,
           "rotation": 0,
           "x": -14,
-          "y": 372,
+          "y": 380,
           "id": 35
         },
         {
@@ -831,8 +1183,8 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": 11,
-          "y": -378,
+          "x": -7,
+          "y": -366,
           "id": 36
         },
         {
@@ -844,8 +1196,8 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": 382,
-          "y": -10,
+          "x": 385,
+          "y": -11,
           "id": 37
         },
         {
@@ -870,8 +1222,8 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": -326,
-          "y": 4,
+          "x": -315,
+          "y": 7,
           "id": 39
         },
         {
@@ -981,24 +1333,24 @@
           "id": 49
         },
         {
+          "orient": "point",
           "type": "polygon",
           "color": "#8b57fa",
           "opacity": 100,
           "radius": 40,
           "sides": 6,
-          "orient": "point",
           "rotation": 0,
           "x": -151,
           "y": 463,
           "id": 50
         },
         {
+          "orient": "point",
           "type": "polygon",
           "color": "#ffc800",
           "opacity": 100,
           "radius": 40,
           "sides": 6,
-          "orient": "point",
           "rotation": 0,
           "x": 138,
           "y": 466,
@@ -1033,42 +1385,6 @@
           "id": 73
         },
         {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": -7,
-          "y": 353,
-          "id": 74
-        },
-        {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": 361,
-          "y": -6,
-          "id": 75
-        },
-        {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": 24,
-          "y": -352,
-          "id": 76
-        },
-        {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": -358,
-          "y": 0,
-          "id": 77
-        },
-        {
           "type": "arrow",
           "color": "#fc972b",
           "opacity": 100,
@@ -1100,7 +1416,7 @@
           "height": 102,
           "rotation": 30,
           "arrowEnd": true,
-          "x": -349,
+          "x": -337,
           "y": 84,
           "id": 80
         },
@@ -1148,8 +1464,8 @@
           "height": 102,
           "rotation": 90,
           "arrowEnd": true,
-          "x": -220,
-          "y": -2,
+          "x": -241,
+          "y": 9,
           "id": 88
         },
         {
@@ -1170,13 +1486,49 @@
           "name": "",
           "color": "#ff0000",
           "opacity": 100,
-          "radius": 79,
+          "radius": 106,
           "status": [],
           "rotation": 0,
           "ring": "dir",
           "x": 0,
           "y": 0,
           "id": 127
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": 373,
+          "y": -11,
+          "id": 630
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": 0,
+          "y": -391,
+          "id": 633
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": -380,
+          "y": 4,
+          "id": 634
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": -3,
+          "y": 357,
+          "id": 635
         }
       ]
     },
@@ -1191,9 +1543,9 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": 165,
-          "y": -1,
-          "id": 90
+          "x": 302,
+          "y": -118,
+          "id": 636
         },
         {
           "opacity": 100,
@@ -1204,9 +1556,9 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": 4,
-          "y": 164,
-          "id": 91
+          "x": 129,
+          "y": 303,
+          "id": 637
         },
         {
           "opacity": 100,
@@ -1217,9 +1569,9 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": -263,
-          "y": 3,
-          "id": 92
+          "x": -353,
+          "y": 130,
+          "id": 638
         },
         {
           "opacity": 100,
@@ -1230,9 +1582,9 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": 2,
-          "y": 210,
-          "id": 93
+          "x": 160,
+          "y": 348,
+          "id": 639
         },
         {
           "opacity": 100,
@@ -1243,9 +1595,9 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": -2,
-          "y": -213,
-          "id": 94
+          "x": -135,
+          "y": -357,
+          "id": 640
         },
         {
           "opacity": 100,
@@ -1256,9 +1608,9 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": 208,
-          "y": 0,
-          "id": 95
+          "x": 345,
+          "y": -141,
+          "id": 641
         },
         {
           "opacity": 100,
@@ -1269,9 +1621,9 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": -2,
-          "y": -164,
-          "id": 96
+          "x": -131,
+          "y": -310,
+          "id": 642
         },
         {
           "opacity": 100,
@@ -1282,9 +1634,9 @@
           "width": 48,
           "height": 48,
           "rotation": 0,
-          "x": -216,
-          "y": 2,
-          "id": 97
+          "x": -287,
+          "y": 119,
+          "id": 643
         },
         {
           "opacity": 100,
@@ -1298,7 +1650,7 @@
           "rotation": 0,
           "x": 0,
           "y": 250,
-          "id": 98
+          "id": 644
         },
         {
           "opacity": 100,
@@ -1312,7 +1664,7 @@
           "rotation": 0,
           "x": 250,
           "y": 0,
-          "id": 99
+          "id": 645
         },
         {
           "opacity": 100,
@@ -1326,7 +1678,7 @@
           "rotation": 0,
           "x": -170,
           "y": 170,
-          "id": 100
+          "id": 646
         },
         {
           "opacity": 100,
@@ -1340,7 +1692,7 @@
           "rotation": 0,
           "x": 170,
           "y": 170,
-          "id": 101
+          "id": 647
         },
         {
           "opacity": 100,
@@ -1354,7 +1706,7 @@
           "rotation": 0,
           "x": 170,
           "y": -170,
-          "id": 102
+          "id": 648
         },
         {
           "opacity": 100,
@@ -1368,53 +1720,31 @@
           "rotation": 0,
           "x": -170,
           "y": -170,
-          "id": 103
+          "id": 649
         },
         {
-          "type": "cone",
-          "color": "#f269ff",
-          "opacity": 60,
-          "radius": 398,
-          "coneAngle": 90,
-          "rotation": 45,
-          "x": 0,
-          "y": 0,
-          "id": 104
-        },
-        {
-          "type": "cone",
-          "color": "#f269ff",
-          "opacity": 60,
-          "radius": 398,
-          "coneAngle": 90,
-          "rotation": 225,
-          "x": 0,
-          "y": 0,
-          "id": 105
-        },
-        {
+          "orient": "point",
           "type": "polygon",
           "color": "#8b57fa",
           "opacity": 100,
           "radius": 40,
           "sides": 6,
-          "orient": "point",
           "rotation": 0,
           "x": -151,
           "y": 463,
-          "id": 106
+          "id": 652
         },
         {
+          "orient": "point",
           "type": "polygon",
           "color": "#ffc800",
           "opacity": 100,
           "radius": 40,
           "sides": 6,
-          "orient": "point",
           "rotation": 0,
           "x": 138,
           "y": 466,
-          "id": 107
+          "id": 653
         },
         {
           "opacity": 100,
@@ -1428,7 +1758,7 @@
           "rotation": 0,
           "x": 9,
           "y": -215,
-          "id": 108
+          "id": 654
         },
         {
           "opacity": 100,
@@ -1442,43 +1772,19 @@
           "rotation": 0,
           "x": -218,
           "y": 4,
-          "id": 109
+          "id": 655
         },
         {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": 1,
-          "y": 176,
-          "id": 110
-        },
-        {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": 361,
-          "y": -6,
-          "id": 111
-        },
-        {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": -9,
-          "y": -356,
-          "id": 112
-        },
-        {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": -244,
-          "y": 5,
-          "id": 113
+          "type": "arrow",
+          "color": "#fc972b",
+          "opacity": 100,
+          "width": 30,
+          "height": 108,
+          "rotation": -145,
+          "arrowEnd": true,
+          "x": 281,
+          "y": -195,
+          "id": 656
         },
         {
           "type": "arrow",
@@ -1486,11 +1792,11 @@
           "opacity": 100,
           "width": 30,
           "height": 102,
-          "rotation": 180,
+          "rotation": -51,
           "arrowEnd": true,
-          "x": 218,
-          "y": -77,
-          "id": 114
+          "x": -196,
+          "y": -310,
+          "id": 657
         },
         {
           "type": "arrow",
@@ -1498,11 +1804,11 @@
           "opacity": 100,
           "width": 30,
           "height": 102,
-          "rotation": -90,
+          "rotation": 40,
           "arrowEnd": true,
-          "x": -77,
-          "y": -217,
-          "id": 115
+          "x": -294,
+          "y": 210,
+          "id": 658
         },
         {
           "type": "arrow",
@@ -1510,107 +1816,59 @@
           "opacity": 100,
           "width": 30,
           "height": 102,
-          "rotation": 0,
+          "rotation": 135,
           "arrowEnd": true,
-          "x": -260,
-          "y": 76,
-          "id": 116
+          "x": 212,
+          "y": 304,
+          "id": 659
         },
         {
           "type": "arrow",
-          "color": "#fc972b",
+          "color": "#ffffff",
           "opacity": 100,
           "width": 30,
           "height": 102,
-          "rotation": 90,
+          "rotation": 26,
           "arrowEnd": true,
-          "x": 74,
-          "y": 218,
-          "id": 117
+          "x": -96,
+          "y": -243,
+          "id": 660
         },
         {
           "type": "arrow",
           "color": "#ffffff",
           "opacity": 100,
           "width": 30,
-          "height": 66,
-          "rotation": -34,
+          "height": 106,
+          "rotation": -157,
           "arrowEnd": true,
-          "x": -36,
-          "y": -105,
-          "id": 118
+          "x": 102,
+          "y": 230,
+          "id": 661
         },
         {
           "type": "arrow",
           "color": "#ffffff",
           "opacity": 100,
           "width": 30,
-          "height": 66,
-          "rotation": 127,
+          "height": 109,
+          "rotation": 120,
           "arrowEnd": true,
-          "x": 64,
-          "y": 118,
-          "id": 119
+          "x": -216,
+          "y": 82,
+          "id": 662
         },
         {
           "type": "arrow",
           "color": "#ffffff",
           "opacity": 100,
           "width": 30,
-          "height": 66,
-          "rotation": 50,
+          "height": 102,
+          "rotation": -57,
           "arrowEnd": true,
-          "x": -153,
-          "y": 50,
-          "id": 120
-        },
-        {
-          "type": "arrow",
-          "color": "#ffffff",
-          "opacity": 100,
-          "width": 30,
-          "height": 66,
-          "rotation": -129,
-          "arrowEnd": true,
-          "x": 108,
-          "y": -37,
-          "id": 121
-        },
-        {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": -1,
-          "y": 326,
-          "id": 122
-        },
-        {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": 0,
-          "y": -209,
-          "id": 123
-        },
-        {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": -354,
-          "y": 4,
-          "id": 124
-        },
-        {
-          "type": "circle",
-          "color": "#bf00ff",
-          "opacity": 90,
-          "radius": 75,
-          "x": 222,
-          "y": -6,
-          "id": 125
+          "x": 243,
+          "y": -84,
+          "id": 663
         },
         {
           "type": "enemy",
@@ -1618,122 +1876,90 @@
           "name": "",
           "color": "#ff0000",
           "opacity": 100,
-          "radius": 79,
+          "radius": 106,
           "status": [],
           "rotation": 0,
           "ring": "dir",
-          "x": -1,
-          "y": -3,
-          "id": 126
+          "x": 0,
+          "y": 0,
+          "id": 664
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": 373,
+          "y": -11,
+          "id": 665
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": 0,
+          "y": -391,
+          "id": 666
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": -380,
+          "y": 4,
+          "id": 667
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": -3,
+          "y": 357,
+          "id": 668
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": 104,
+          "y": 361,
+          "id": 669
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": 369,
+          "y": -132,
+          "id": 670
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": -116,
+          "y": -357,
+          "id": 671
+        },
+        {
+          "type": "circle",
+          "color": "#bf00ff",
+          "opacity": 90,
+          "radius": 104,
+          "x": -360,
+          "y": 117,
+          "id": 672
         }
       ]
     },
     {
       "objects": [
-        {
-          "opacity": 100,
-          "type": "party",
-          "image": "/actor/melee2.png",
-          "name": "Melee DPS",
-          "status": [],
-          "width": 48,
-          "height": 48,
-          "rotation": 0,
-          "x": 41,
-          "y": 40,
-          "id": 52
-        },
-        {
-          "opacity": 100,
-          "type": "party",
-          "image": "/actor/tank1.png",
-          "name": "Tank",
-          "status": [],
-          "width": 48,
-          "height": 48,
-          "rotation": 0,
-          "x": -10,
-          "y": 121,
-          "id": 53
-        },
-        {
-          "opacity": 100,
-          "type": "party",
-          "image": "/actor/healer1.png",
-          "name": "Healer",
-          "status": [],
-          "width": 48,
-          "height": 48,
-          "rotation": 0,
-          "x": -67,
-          "y": 115,
-          "id": 54
-        },
-        {
-          "opacity": 100,
-          "type": "party",
-          "image": "/actor/physical_ranged.png",
-          "name": "Physical Ranged DPS",
-          "status": [],
-          "width": 48,
-          "height": 48,
-          "rotation": 0,
-          "x": 48,
-          "y": -124,
-          "id": 55
-        },
-        {
-          "opacity": 100,
-          "type": "party",
-          "image": "/actor/magic_ranged.png",
-          "name": "Magic Ranged DPS",
-          "status": [],
-          "width": 48,
-          "height": 48,
-          "rotation": 0,
-          "x": 112,
-          "y": 1,
-          "id": 56
-        },
-        {
-          "opacity": 100,
-          "type": "party",
-          "image": "/actor/healer2.png",
-          "name": "Healer",
-          "status": [],
-          "width": 48,
-          "height": 48,
-          "rotation": 0,
-          "x": -73,
-          "y": 31,
-          "id": 57
-        },
-        {
-          "opacity": 100,
-          "type": "party",
-          "image": "/actor/tank2.png",
-          "name": "Tank",
-          "status": [],
-          "width": 48,
-          "height": 48,
-          "rotation": 0,
-          "x": -110,
-          "y": 9,
-          "id": 58
-        },
-        {
-          "opacity": 100,
-          "type": "party",
-          "image": "/actor/melee1.png",
-          "name": "Melee DPS",
-          "status": [],
-          "width": 48,
-          "height": 48,
-          "rotation": 0,
-          "x": 37,
-          "y": -38,
-          "id": 59
-        },
         {
           "opacity": 100,
           "type": "marker",
@@ -1772,8 +1998,8 @@
           "width": 53,
           "height": 53,
           "rotation": 0,
-          "x": -250,
-          "y": 0,
+          "x": 8,
+          "y": -235,
           "id": 62
         },
         {
@@ -1786,8 +2012,8 @@
           "width": 53,
           "height": 53,
           "rotation": 0,
-          "x": 0,
-          "y": -250,
+          "x": -227,
+          "y": -17,
           "id": 63
         },
         {
@@ -1847,50 +2073,2117 @@
           "id": 67
         },
         {
-          "type": "cone",
-          "color": "#f269ff",
-          "opacity": 60,
-          "radius": 398,
-          "coneAngle": 90,
-          "rotation": 45,
-          "x": 0,
-          "y": 0,
-          "id": 68
-        },
-        {
-          "type": "cone",
-          "color": "#f269ff",
-          "opacity": 60,
-          "radius": 398,
-          "coneAngle": 90,
-          "rotation": 225,
-          "x": 0,
-          "y": 0,
-          "id": 69
-        },
-        {
+          "orient": "point",
           "type": "polygon",
           "color": "#8b57fa",
           "opacity": 100,
           "radius": 40,
           "sides": 6,
-          "orient": "point",
           "rotation": 0,
-          "x": 180,
-          "y": 451,
+          "x": 177,
+          "y": 461,
           "id": 70
         },
         {
+          "orient": "point",
           "type": "polygon",
           "color": "#ffc800",
           "opacity": 100,
           "radius": 40,
           "sides": 6,
-          "orient": "point",
           "rotation": 0,
-          "x": -152,
+          "x": -175,
           "y": 459,
           "id": 71
+        },
+        {
+          "type": "icon",
+          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215775_hr1.tex?format=png",
+          "width": 48,
+          "height": 64,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "About Face",
+          "iconId": 215775,
+          "maxStacks": 0,
+          "x": -3,
+          "y": -95,
+          "id": 221
+        },
+        {
+          "type": "icon",
+          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215777_hr1.tex?format=png",
+          "width": 48,
+          "height": 64,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Right Face",
+          "iconId": 215777,
+          "maxStacks": 0,
+          "x": 97,
+          "y": 2,
+          "id": 224
+        },
+        {
+          "type": "icon",
+          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215774_hr1.tex?format=png",
+          "width": 48,
+          "height": 64,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Forward March",
+          "iconId": 215774,
+          "maxStacks": 0,
+          "x": -2,
+          "y": 102,
+          "id": 226
+        },
+        {
+          "type": "icon",
+          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215776_hr1.tex?format=png",
+          "width": 48,
+          "height": 64,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Left Face",
+          "iconId": 215776,
+          "maxStacks": 0,
+          "x": -102,
+          "y": 8,
+          "id": 231,
+          "pinned": false
+        },
+        {
+          "type": "party",
+          "image": "/actor/dps.png",
+          "name": "DPS",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -2,
+          "y": 73,
+          "id": 309
+        },
+        {
+          "type": "party",
+          "image": "/actor/dps.png",
+          "name": "DPS",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -72,
+          "y": 6,
+          "id": 310
+        },
+        {
+          "type": "party",
+          "image": "/actor/dps.png",
+          "name": "DPS",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 67,
+          "y": 1,
+          "id": 311
+        },
+        {
+          "type": "party",
+          "image": "/actor/dps.png",
+          "name": "DPS",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -4,
+          "y": -65,
+          "id": 312
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer1.png",
+          "name": "Healer 1",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -86,
+          "y": -77,
+          "id": 313
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer2.png",
+          "name": "Healer 2",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 86,
+          "y": -75,
+          "id": 314
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank1.png",
+          "name": "Tank 1",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -82,
+          "y": 82,
+          "id": 315
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank2.png",
+          "name": "Tank 2",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 86,
+          "y": 84,
+          "id": 316
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark A",
+          "image": "/marker/waymark_a.png",
+          "shape": "circle",
+          "color": "#f13b66",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 0,
+          "y": 250,
+          "id": 317
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark B",
+          "image": "/marker/waymark_b.png",
+          "shape": "circle",
+          "color": "#e1dc5d",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 250,
+          "y": 0,
+          "id": 318
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark C",
+          "image": "/marker/waymark_c.png",
+          "shape": "circle",
+          "color": "#65b3ea",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 8,
+          "y": -235,
+          "id": 319
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark D",
+          "image": "/marker/waymark_d.png",
+          "shape": "circle",
+          "color": "#e291e6",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -227,
+          "y": -17,
+          "id": 320
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 1",
+          "image": "/marker/waymark_1.png",
+          "shape": "square",
+          "color": "#f13b66",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -170,
+          "y": 170,
+          "id": 321
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 2",
+          "image": "/marker/waymark_2.png",
+          "shape": "square",
+          "color": "#e1dc5d",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 170,
+          "y": 170,
+          "id": 322
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 3",
+          "image": "/marker/waymark_3.png",
+          "shape": "square",
+          "color": "#65b3ea",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 170,
+          "y": -170,
+          "id": 323
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 4",
+          "image": "/marker/waymark_4.png",
+          "shape": "square",
+          "color": "#e291e6",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -170,
+          "y": -170,
+          "id": 324
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#8b57fa",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": 177,
+          "y": 461,
+          "id": 325
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#ffc800",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": -175,
+          "y": 459,
+          "id": 326
+        },
+        {
+          "type": "icon",
+          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215775_hr1.tex?format=png",
+          "width": 48,
+          "height": 64,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "About Face",
+          "iconId": 215775,
+          "maxStacks": 0,
+          "x": -3,
+          "y": -95,
+          "id": 327
+        },
+        {
+          "type": "icon",
+          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215777_hr1.tex?format=png",
+          "width": 48,
+          "height": 64,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Right Face",
+          "iconId": 215777,
+          "maxStacks": 0,
+          "x": 97,
+          "y": 2,
+          "id": 328
+        },
+        {
+          "type": "icon",
+          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215774_hr1.tex?format=png",
+          "width": 48,
+          "height": 64,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Forward March",
+          "iconId": 215774,
+          "maxStacks": 0,
+          "x": -2,
+          "y": 102,
+          "id": 329
+        },
+        {
+          "type": "icon",
+          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215776_hr1.tex?format=png",
+          "width": 48,
+          "height": 64,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Left Face",
+          "iconId": 215776,
+          "maxStacks": 0,
+          "x": -102,
+          "y": 8,
+          "id": 330,
+          "pinned": false
+        },
+        {
+          "type": "party",
+          "image": "/actor/dps.png",
+          "name": "DPS",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 61,
+          "y": 69,
+          "id": 331
+        },
+        {
+          "type": "party",
+          "image": "/actor/dps.png",
+          "name": "DPS",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -72,
+          "y": 56,
+          "id": 332
+        },
+        {
+          "type": "party",
+          "image": "/actor/dps.png",
+          "name": "DPS",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 73,
+          "y": -56,
+          "id": 333
+        },
+        {
+          "type": "party",
+          "image": "/actor/dps.png",
+          "name": "DPS",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -63,
+          "y": -66,
+          "id": 334
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer1.png",
+          "name": "Healer 1",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -90,
+          "y": -79,
+          "id": 335
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer2.png",
+          "name": "Healer 2",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 86,
+          "y": -75,
+          "id": 336
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank1.png",
+          "name": "Tank 1",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -82,
+          "y": 82,
+          "id": 337
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank2.png",
+          "name": "Tank 2",
+          "status": [],
+          "width": 44,
+          "height": 44,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 86,
+          "y": 84,
+          "id": 338
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark A",
+          "image": "/marker/waymark_a.png",
+          "shape": "circle",
+          "color": "#f13b66",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 0,
+          "y": 250,
+          "id": 339
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark B",
+          "image": "/marker/waymark_b.png",
+          "shape": "circle",
+          "color": "#e1dc5d",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 250,
+          "y": 0,
+          "id": 340
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark C",
+          "image": "/marker/waymark_c.png",
+          "shape": "circle",
+          "color": "#65b3ea",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 8,
+          "y": -235,
+          "id": 341
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark D",
+          "image": "/marker/waymark_d.png",
+          "shape": "circle",
+          "color": "#e291e6",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -227,
+          "y": -17,
+          "id": 342
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 1",
+          "image": "/marker/waymark_1.png",
+          "shape": "square",
+          "color": "#f13b66",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -170,
+          "y": 170,
+          "id": 343
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 2",
+          "image": "/marker/waymark_2.png",
+          "shape": "square",
+          "color": "#e1dc5d",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 170,
+          "y": 170,
+          "id": 344
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 3",
+          "image": "/marker/waymark_3.png",
+          "shape": "square",
+          "color": "#65b3ea",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 170,
+          "y": -170,
+          "id": 345
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 4",
+          "image": "/marker/waymark_4.png",
+          "shape": "square",
+          "color": "#e291e6",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -170,
+          "y": -170,
+          "id": 346
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#8b57fa",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": 177,
+          "y": 461,
+          "id": 347
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#ffc800",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": -175,
+          "y": 459,
+          "id": 348
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -2,
+          "y": -84,
+          "id": 361
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -127,
+          "y": 30,
+          "id": 362
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 121,
+          "coneAngle": 49,
+          "rotation": -93,
+          "x": -202,
+          "y": 49,
+          "id": 366
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 135,
+          "coneAngle": 43,
+          "rotation": 12,
+          "x": 226,
+          "y": -18,
+          "id": 368
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 55,
+          "radius": 70,
+          "x": 168,
+          "y": 85,
+          "id": 371
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 56,
+          "count": 1,
+          "x": 179,
+          "y": -27,
+          "id": 384
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 55,
+          "radius": 70,
+          "x": -144,
+          "y": 261,
+          "id": 386
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark A",
+          "image": "/marker/waymark_a.png",
+          "shape": "circle",
+          "color": "#f13b66",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 0,
+          "y": 250,
+          "id": 387
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark B",
+          "image": "/marker/waymark_b.png",
+          "shape": "circle",
+          "color": "#e1dc5d",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 250,
+          "y": 0,
+          "id": 388
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark C",
+          "image": "/marker/waymark_c.png",
+          "shape": "circle",
+          "color": "#65b3ea",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 8,
+          "y": -235,
+          "id": 389
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark D",
+          "image": "/marker/waymark_d.png",
+          "shape": "circle",
+          "color": "#e291e6",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -227,
+          "y": -17,
+          "id": 390
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 1",
+          "image": "/marker/waymark_1.png",
+          "shape": "square",
+          "color": "#f13b66",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -170,
+          "y": 170,
+          "id": 391
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 2",
+          "image": "/marker/waymark_2.png",
+          "shape": "square",
+          "color": "#e1dc5d",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 170,
+          "y": 170,
+          "id": 392
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 3",
+          "image": "/marker/waymark_3.png",
+          "shape": "square",
+          "color": "#65b3ea",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": 170,
+          "y": -170,
+          "id": 393
+        },
+        {
+          "opacity": 100,
+          "type": "marker",
+          "name": "Waymark 4",
+          "image": "/marker/waymark_4.png",
+          "shape": "square",
+          "color": "#e291e6",
+          "width": 53,
+          "height": 53,
+          "rotation": 0,
+          "x": -170,
+          "y": -170,
+          "id": 394
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#8b57fa",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": 177,
+          "y": 461,
+          "id": 395
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#ffc800",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": -175,
+          "y": 459,
+          "id": 396
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -2,
+          "y": -84,
+          "id": 397
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -127,
+          "y": 30,
+          "id": 398
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 121,
+          "coneAngle": 49,
+          "rotation": -93,
+          "x": -202,
+          "y": 49,
+          "id": 399
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 135,
+          "coneAngle": 43,
+          "rotation": 12,
+          "x": 226,
+          "y": -18,
+          "id": 400
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 55,
+          "radius": 70,
+          "x": 168,
+          "y": 85,
+          "id": 401
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 56,
+          "count": 1,
+          "x": 179,
+          "y": -27,
+          "id": 402
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 55,
+          "radius": 70,
+          "x": -142,
+          "y": 209,
+          "id": 403
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#8b57fa",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": 177,
+          "y": 461,
+          "id": 412
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#ffc800",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": -175,
+          "y": 459,
+          "id": 413
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -13,
+          "y": -95,
+          "id": 414
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -133,
+          "y": 22,
+          "id": 415
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 72,
+          "coneAngle": 43,
+          "rotation": 0,
+          "x": -258,
+          "y": -123,
+          "id": 417
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 55,
+          "radius": 39,
+          "x": 180,
+          "y": -103,
+          "id": 420
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 72,
+          "coneAngle": 43,
+          "rotation": 0,
+          "x": -257,
+          "y": 20,
+          "id": 421
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 72,
+          "coneAngle": 43,
+          "rotation": 0,
+          "x": -257,
+          "y": -47,
+          "id": 422
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 39,
+          "count": 1,
+          "x": 186,
+          "y": 62,
+          "id": 423
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 55,
+          "radius": 39,
+          "x": 184,
+          "y": -22,
+          "id": 424
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 39,
+          "count": 1,
+          "x": -255,
+          "y": 138,
+          "id": 425
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 55,
+          "radius": 39,
+          "x": 184,
+          "y": 148,
+          "id": 426
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#8b57fa",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": 177,
+          "y": 461,
+          "id": 427
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#ffc800",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": -175,
+          "y": 459,
+          "id": 428
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -13,
+          "y": -95,
+          "id": 429
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -133,
+          "y": 22,
+          "id": 430
+        },
+        {
+          "type": "cone",
+          "color": "#00d5e8",
+          "opacity": 95,
+          "radius": 66,
+          "coneAngle": 52,
+          "rotation": 8,
+          "x": -123,
+          "y": 119,
+          "id": 431
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 55,
+          "radius": 39,
+          "x": -63,
+          "y": -57,
+          "id": 432
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 78,
+          "coneAngle": 43,
+          "rotation": -139,
+          "x": -143,
+          "y": 85,
+          "id": 433
+        },
+        {
+          "type": "cone",
+          "color": "#ff0000",
+          "opacity": 95,
+          "radius": 159,
+          "coneAngle": 43,
+          "rotation": -37,
+          "x": -146,
+          "y": 101,
+          "id": 434
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 39,
+          "count": 1,
+          "x": -137,
+          "y": 94,
+          "id": 435
+        },
+        {
+          "type": "circle",
+          "color": "#00d5e8",
+          "opacity": 60,
+          "radius": 39,
+          "x": 56,
+          "y": -27,
+          "id": 436
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 39,
+          "count": 1,
+          "x": 59,
+          "y": -61,
+          "id": 437
+        },
+        {
+          "type": "circle",
+          "color": "#00d5e8",
+          "opacity": 60,
+          "radius": 39,
+          "x": 87,
+          "y": -75,
+          "id": 438
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 15,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Cone resolve\n(in tower)",
+          "stroke": "#40352c",
+          "x": -171,
+          "y": 70,
+          "id": 439
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 15,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Cone bait\n(outside tower, baits)",
+          "stroke": "#40352c",
+          "x": -224,
+          "y": 181,
+          "id": 440
+        },
+        {
+          "type": "text",
+          "align": "left",
+          "fontSize": 15,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Cone chill\n(outside tower, no bait)",
+          "stroke": "#40352c",
+          "x": -56,
+          "y": 159,
+          "id": 441
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#8b57fa",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": 177,
+          "y": 461,
+          "id": 442
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#ffc800",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": -175,
+          "y": 459,
+          "id": 443
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -13,
+          "y": -95,
+          "id": 444
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -141,
+          "y": 39,
+          "id": 445
+        },
+        {
+          "type": "cone",
+          "color": "#00d5e8",
+          "opacity": 95,
+          "radius": 40,
+          "coneAngle": 52,
+          "rotation": 0,
+          "x": -112,
+          "y": 151,
+          "id": 446
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 55,
+          "radius": 39,
+          "x": -63,
+          "y": -57,
+          "id": 447
+        },
+        {
+          "type": "cone",
+          "color": "#ff0000",
+          "opacity": 95,
+          "radius": 197,
+          "coneAngle": 43,
+          "rotation": -63,
+          "x": -181,
+          "y": 120,
+          "id": 449
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 39,
+          "count": 1,
+          "x": -135,
+          "y": 114,
+          "id": 450
+        },
+        {
+          "type": "circle",
+          "color": "#00d5e8",
+          "opacity": 60,
+          "radius": 39,
+          "x": 56,
+          "y": -27,
+          "id": 451
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 39,
+          "count": 1,
+          "x": 51,
+          "y": -66,
+          "id": 452
+        },
+        {
+          "type": "circle",
+          "color": "#00d5e8",
+          "opacity": 60,
+          "radius": 39,
+          "x": 87,
+          "y": -75,
+          "id": 453
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 15,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Cone resolve\n(in tower)",
+          "stroke": "#40352c",
+          "x": -216,
+          "y": 79,
+          "id": 454
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 15,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Cone bait\n(outside tower, baits)",
+          "stroke": "#40352c",
+          "x": -278,
+          "y": 161,
+          "id": 455
+        },
+        {
+          "type": "text",
+          "align": "left",
+          "fontSize": 15,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Cone chill\n(outside tower, no bait)",
+          "stroke": "#40352c",
+          "x": -21,
+          "y": 155,
+          "id": 456
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 104,
+          "count": 1,
+          "x": 212,
+          "y": 218,
+          "id": 459
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 38,
+          "coneAngle": 43,
+          "rotation": 0,
+          "x": -155,
+          "y": 96,
+          "id": 448
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -156,
+          "y": 89,
+          "id": 506
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -188,
+          "y": 123,
+          "id": 507
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -127,
+          "y": 104,
+          "id": 508
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -66,
+          "y": -55,
+          "id": 509
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 55,
+          "y": -18,
+          "id": 510
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 93,
+          "y": -72,
+          "id": 511
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 42,
+          "y": -71,
+          "id": 512
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -117,
+          "y": 135,
+          "id": 513
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#8b57fa",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": 177,
+          "y": 461,
+          "id": 514
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#ffc800",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": -175,
+          "y": 459,
+          "id": 515
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 194,
+          "count": 1,
+          "x": -85,
+          "y": -54,
+          "id": 517
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 115,
+          "count": 1,
+          "x": -41,
+          "y": 123,
+          "id": 521
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 40,
+          "height": 40,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -42,
+          "y": 123,
+          "id": 540
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 40,
+          "height": 40,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -135,
+          "y": 114,
+          "id": 542
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 40,
+          "height": 40,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -178,
+          "y": 151,
+          "id": 543
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 40,
+          "height": 40,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 9,
+          "y": 195,
+          "id": 544
+        },
+        {
+          "type": "cone",
+          "color": "#ff0000",
+          "opacity": 95,
+          "radius": 194,
+          "coneAngle": 43,
+          "rotation": -60,
+          "x": -159,
+          "y": 137,
+          "id": 546
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 64,
+          "coneAngle": 43,
+          "rotation": 0,
+          "x": -133,
+          "y": 116,
+          "id": 547
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 95,
+          "radius": 64,
+          "coneAngle": 43,
+          "rotation": 0,
+          "x": -2,
+          "y": 196,
+          "id": 548
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#8b57fa",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": 177,
+          "y": 461,
+          "id": 466
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#ffc800",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": -175,
+          "y": 459,
+          "id": 467
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -13,
+          "y": -95,
+          "id": 468
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -133,
+          "y": 22,
+          "id": 469
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 77,
+          "x": -140,
+          "y": -47,
+          "id": 475
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 77,
+          "x": -198,
+          "y": 47,
+          "id": 487
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 77,
+          "x": -72,
+          "y": -132,
+          "id": 489
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 77,
+          "x": 34,
+          "y": -152,
+          "id": 490
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": 51,
+          "y": 80,
+          "id": 491
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_medium.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 100,
+          "radius": 74,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": -2,
+          "y": 1,
+          "id": 492
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": 80,
+          "y": -79,
+          "id": 494
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": 99,
+          "y": 46,
+          "id": 495
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": 111,
+          "y": -20,
+          "id": 496
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 387,
+          "coneAngle": 180,
+          "rotation": 40,
+          "x": 74,
+          "y": 99,
+          "id": 497
+        },
+        {
+          "type": "tower",
+          "color": "#f269ff",
+          "opacity": 50,
+          "radius": 77,
+          "count": 1,
+          "x": -63,
+          "y": 122,
+          "id": 499
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 327,
+          "coneAngle": 180,
+          "rotation": 135,
+          "x": 96,
+          "y": -52,
+          "id": 500
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#8b57fa",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": 177,
+          "y": 461,
+          "id": 554
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#ffc800",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": -175,
+          "y": 459,
+          "id": 555
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -13,
+          "y": -95,
+          "id": 556
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -133,
+          "y": 22,
+          "id": 557
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 77,
+          "x": -140,
+          "y": -47,
+          "id": 558
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 77,
+          "x": -198,
+          "y": 47,
+          "id": 559
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 77,
+          "x": -72,
+          "y": -132,
+          "id": 560
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 77,
+          "x": 34,
+          "y": -152,
+          "id": 561
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": 51,
+          "y": 80,
+          "id": 562
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_medium.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 100,
+          "radius": 74,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": -2,
+          "y": 1,
+          "id": 563
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": 80,
+          "y": -79,
+          "id": 564
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": 99,
+          "y": 46,
+          "id": 565
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": 111,
+          "y": -20,
+          "id": 566
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 387,
+          "coneAngle": 180,
+          "rotation": 40,
+          "x": 74,
+          "y": 99,
+          "id": 567
+        },
+        {
+          "type": "tower",
+          "color": "#f269ff",
+          "opacity": 50,
+          "radius": 77,
+          "count": 1,
+          "x": -63,
+          "y": 122,
+          "id": 568
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 327,
+          "coneAngle": 180,
+          "rotation": 135,
+          "x": 96,
+          "y": -52,
+          "id": 569
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#8b57fa",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": 177,
+          "y": 461,
+          "id": 570
+        },
+        {
+          "orient": "point",
+          "type": "polygon",
+          "color": "#ffc800",
+          "opacity": 100,
+          "radius": 40,
+          "sides": 6,
+          "rotation": 0,
+          "x": -175,
+          "y": 459,
+          "id": 571
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -13,
+          "y": -95,
+          "id": 572
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 70,
+          "radius": 77,
+          "count": 1,
+          "x": -133,
+          "y": 22,
+          "id": 573
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 75,
+          "radius": 55,
+          "x": -107,
+          "y": 130,
+          "id": 576
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_medium.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 100,
+          "radius": 74,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": -1,
+          "y": 10,
+          "id": 579
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": 42,
+          "y": -132,
+          "id": 580
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": -157,
+          "y": 70,
+          "id": 582
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": 69,
+          "y": -172,
+          "id": 586
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 48,
+          "coneAngle": 52,
+          "rotation": 3,
+          "x": -187,
+          "y": 47,
+          "id": 587
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 75,
+          "radius": 55,
+          "x": 90,
+          "y": -88,
+          "id": 588
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 55,
+          "count": 1,
+          "x": 47,
+          "y": -106,
+          "id": 589
+        },
+        {
+          "type": "stack",
+          "color": "#fc972b",
+          "opacity": 100,
+          "radius": 55,
+          "count": 1,
+          "x": -123,
+          "y": 94,
+          "id": 590
         }
       ]
     }

@@ -438,7 +438,7 @@
         },
         {
           "type": "enemy",
-          "icon": "/actor/enemy_medium.png",
+          "icon": "none",
           "name": "",
           "color": "#ff0000",
           "opacity": 100,
@@ -518,26 +518,26 @@
           "id": 102
         },
         {
+          "stroke": "#000000",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 55,
           "color": "#ffc800",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "!!!Respect Stillness/Motion!!!",
-          "stroke": "#000000",
           "x": 25,
           "y": 249,
           "id": 227
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215696_hr1.tex?format=png",
           "width": 60,
           "height": 80,
           "rotation": 0,
-          "opacity": 100,
           "name": "Compressed Water",
           "iconId": 215696,
           "maxStacks": 0,
@@ -546,12 +546,12 @@
           "id": 231
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215623_hr1.tex?format=png",
           "width": 60,
           "height": 80,
           "rotation": 0,
-          "opacity": 100,
           "name": "Forked Lightning",
           "iconId": 215623,
           "maxStacks": 0,
@@ -560,12 +560,12 @@
           "id": 232
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215727_hr1.tex?format=png",
           "width": 60,
           "height": 80,
           "rotation": 0,
-          "opacity": 100,
           "name": "Acceleration Bomb",
           "iconId": 215727,
           "maxStacks": 0,
@@ -671,7 +671,7 @@
         },
         {
           "type": "enemy",
-          "icon": "/actor/enemy_medium.png",
+          "icon": "none",
           "name": "",
           "color": "#ff0000",
           "opacity": 100,
@@ -832,7 +832,7 @@
           "color": "#ffffff",
           "opacity": 100,
           "rotation": 0,
-          "text": "Everyone stack middle to drop the first Element\nCheck if it's \n- STAY (Donut) \n- MOVE (point blank, boss hitbox sized)\n\nMove out into role/spread spots",
+          "text": "Everyone stack middle to drop the first Element (Always Fire)\nCheck if it's \n- STAY (Donut) \n- MOVE (point blank, boss hitbox sized)\n\nMove out into role/spread spots",
           "x": 33,
           "y": 277,
           "id": 138
@@ -865,7 +865,7 @@
         },
         {
           "type": "enemy",
-          "icon": "/actor/enemy_medium.png",
+          "icon": "none",
           "name": "",
           "color": "#ff0000",
           "opacity": 100,
@@ -908,7 +908,7 @@
           "color": "#fc972b",
           "opacity": 35,
           "innerRadius": 84,
-          "radius": 211,
+          "radius": 257,
           "x": 15,
           "y": 1,
           "id": 147,
@@ -973,7 +973,7 @@
           "height": 40,
           "rotation": 0,
           "x": 3,
-          "y": -95,
+          "y": -67,
           "id": 152
         },
         {
@@ -986,7 +986,7 @@
           "height": 40,
           "rotation": 0,
           "x": 4,
-          "y": 90,
+          "y": 58,
           "id": 153
         },
         {
@@ -998,8 +998,8 @@
           "width": 40,
           "height": 40,
           "rotation": 0,
-          "x": -101,
-          "y": -5,
+          "x": -61,
+          "y": -3,
           "id": 154
         },
         {
@@ -1011,8 +1011,8 @@
           "width": 40,
           "height": 40,
           "rotation": 0,
-          "x": 108,
-          "y": -3,
+          "x": 74,
+          "y": 0,
           "id": 155
         },
         {
@@ -1023,8 +1023,8 @@
           "height": 40,
           "rotation": 0,
           "name": "Ignore 1",
-          "x": -97,
-          "y": 20,
+          "x": -87,
+          "y": 21,
           "id": 156
         },
         {
@@ -1035,36 +1035,22 @@
           "height": 40,
           "rotation": 0,
           "name": "Ignore 2",
-          "x": 115,
-          "y": 20,
+          "x": 85,
+          "y": 24,
           "id": 158
         },
         {
-          "type": "icon",
-          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215903_hr1.tex?format=png",
-          "width": 60,
-          "height": 80,
-          "rotation": 0,
           "opacity": 100,
-          "name": "Dynamic Fluid",
-          "iconId": 215903,
-          "maxStacks": 0,
-          "x": -316,
-          "y": 178,
-          "id": 239
-        },
-        {
           "type": "icon",
           "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215902_hr1.tex?format=png",
           "width": 60,
           "height": 80,
           "rotation": 0,
-          "opacity": 100,
           "name": "Entropy",
           "iconId": 215902,
           "maxStacks": 0,
-          "x": -260,
-          "y": 178,
+          "x": -255,
+          "y": 131,
           "id": 240
         }
       ]
@@ -1126,7 +1112,7 @@
         },
         {
           "type": "enemy",
-          "icon": "/actor/enemy_medium.png",
+          "icon": "none",
           "name": "",
           "color": "#ff0000",
           "opacity": 100,
@@ -1292,26 +1278,26 @@
           "id": 221
         },
         {
+          "stroke": "#000000",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 55,
           "color": "#ffc800",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "!!!Respect Stillness/Motion!!!",
-          "stroke": "#000000",
           "x": 13,
           "y": 263,
           "id": 226
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215696_hr1.tex?format=png",
           "width": 60,
           "height": 80,
           "rotation": 0,
-          "opacity": 100,
           "name": "Compressed Water",
           "iconId": 215696,
           "maxStacks": 0,
@@ -1320,12 +1306,12 @@
           "id": 234
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215623_hr1.tex?format=png",
           "width": 60,
           "height": 80,
           "rotation": 0,
-          "opacity": 100,
           "name": "Forked Lightning",
           "iconId": 215623,
           "maxStacks": 0,
@@ -1334,12 +1320,12 @@
           "id": 235
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215727_hr1.tex?format=png",
           "width": 60,
           "height": 80,
           "rotation": 0,
-          "opacity": 100,
           "name": "Acceleration Bomb",
           "iconId": 215727,
           "maxStacks": 0,
@@ -1392,7 +1378,7 @@
         },
         {
           "type": "enemy",
-          "icon": "/actor/enemy_medium.png",
+          "icon": "none",
           "name": "",
           "color": "#ff0000",
           "opacity": 100,
@@ -1529,15 +1515,15 @@
           "pinned": false
         },
         {
+          "stroke": "#000000",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 30,
           "color": "#ffc800",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "!!Engage all your braincells \nto start solving the stored mech!!",
-          "stroke": "#000000",
           "x": 28,
           "y": 223,
           "id": 242
@@ -1587,7 +1573,7 @@
         },
         {
           "type": "enemy",
-          "icon": "/actor/enemy_medium.png",
+          "icon": "none",
           "name": "",
           "color": "#ff0000",
           "opacity": 100,
@@ -1673,7 +1659,7 @@
           "color": "#ffffff",
           "opacity": 100,
           "rotation": 0,
-          "text": "Stored Mech + 2nd Element\nStack middle to drop Fire/Water\n\nFind safe spot inside or outside\ndepending on Donut or cHaRiOT 🤓☝️",
+          "text": "Stored Mech + 2nd Element (Always Water)\nStack middle to drop Fire/Water\n\nFind safe spot inside or outside\ndepending on Donut or cHaRiOT 🤓☝️",
           "x": 39,
           "y": 302,
           "id": 211
@@ -1737,32 +1723,18 @@
           "positionParentId": 203
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215903_hr1.tex?format=png",
           "width": 60,
           "height": 80,
           "rotation": 0,
-          "opacity": 100,
           "name": "Dynamic Fluid",
           "iconId": 215903,
           "maxStacks": 0,
-          "x": -309,
-          "y": 184,
+          "x": -222,
+          "y": 170,
           "id": 237
-        },
-        {
-          "type": "icon",
-          "image": "https://v2.xivapi.com/api/asset/ui/icon/215000/215902_hr1.tex?format=png",
-          "width": 60,
-          "height": 80,
-          "rotation": 0,
-          "opacity": 100,
-          "name": "Entropy",
-          "iconId": 215902,
-          "maxStacks": 0,
-          "x": -253,
-          "y": 184,
-          "id": 238
         }
       ]
     }
